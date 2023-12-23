@@ -2,11 +2,21 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
+  -font-family: "Roboto", sans-serif;
+  --second-family: "Recoleta", sans-serif;
+  --third-family: "Verdana", sans-serif;
   --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
   --light-color: #fff;
+  --yellow: #ffee2e;
+	--black-blue: #333b41;
+	--green: #4b9200;
+	--frosted-glass-white: rgba(253, 253, 255, 0.52);
+	--gray-light: #f1f3f2;
+	--gray: #767474;
+	--gray-smoky: #ababab;
+	--rad: #d31414;
 }
