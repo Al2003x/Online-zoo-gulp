@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  padding: 14px 0;
+  backdrop-filter: blur(2px);
+  background-color: #000;
+  z-index: 2;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 52px;
+  margin-right: 63px;
+  padding: 3px 4px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+
+  &__link {
+    width: 72px;
+    height: 44px;
+  }
+}

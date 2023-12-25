@@ -1,0 +1,45 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 298px;
+  height: 54px;
+  padding: 16px 1px 16px 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  background: var(
+    --orang,
+    linear-gradient(114deg, #f9804b 1.49%, #fe9013 101.44%)
+  );
+  transition: hover 0.3s ease-in-out;
+
+  &:hover {
+    background: #e47209;
+  }
+
+  &:active {
+    background: var(--Green, #4b9200);
+  }
+
+  &:disabled {
+    background: var(--gray, #767474);
+  }
+
+  &__hero {
+    margin-left: 102px;
+
+    @include for-desktop {
+      margin-left: 96px;
+    }
+  }
+
+  &__feedback {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,27 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 59px;
+
+  @include for-desktop {
+    gap: 49px;
+  }
+
+}
+
+.nav__link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+
+  &:hover {
+    color: var(--orange);
+  }
+
+  &-active {
+    color: var(--orange);
+  }
+}
